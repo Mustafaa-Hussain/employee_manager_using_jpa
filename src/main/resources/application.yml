@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: employee_manager_using_jpa
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_for_java
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
